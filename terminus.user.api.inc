@@ -45,7 +45,7 @@ function terminus_api_user_profile_set($user_uuid, $profile) {
  * API Call to Update/Patch a User Profile
  */
 function terminus_api_user_profile_update($user_uuid, $profile) {
-  $realm = 'user';
+  $realm = 'admin';
   $uuid = $user_uuid;
   $path = 'profile';
   $method = 'PATCH';
